@@ -1,0 +1,55 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+#photo img{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#welcome{
+    background-color: rgb(77 211 241);
+    padding: 100px 150px;
+}
+#welcome h1{
+    margin: 20px;
+    text-align: center;
+}
+#welcome p{
+    text-align: center;
+}
+
+#mission{
+    color: rgb(77 211 241);
+    padding: 50px 150px;
+}
+#mission h1{
+    margin: 20px;
+    text-align: center;
+}
+#missionflex{
+    display: flex;
+    width: 100%;
+}
+#mission_photo{
+    width: 50%;
+}
+#mission_photo img{
+    width: 80%;
+    height: 80%;
+    padding: 30px 50px;
+}
+#mission_txt{
+    width: 50%;
+}
+#mission_txt p{
+    color: black;
+    margin: 0;
+}
+.icon{
+    padding: 9px 0;
+    font-size: 25px;
+}

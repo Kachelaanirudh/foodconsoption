@@ -1,0 +1,27 @@
+#navbar{
+    background-color: rgb(245 231 137);
+}
+#navbar ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 16px;
+}
+#navbar ul li{
+    padding: 10px 20px;
+}
+#navbar ul li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* ---------footer--------- */
+#copyright h3{
+    position: absolute;
+    background-color: rgb(77 211 241);
+    padding: 20px 100px;
+    margin: 0;
+    width: -webkit-fill-available;
+}

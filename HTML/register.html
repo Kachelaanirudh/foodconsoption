@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/registerStyle.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h1>REGISTER NOW</h1>
+        <form action="../register" method="post">
+            <input type="text" name="name" id="name" class="input" placeholder="NAME"><br>
+            <input type="email" name="email" id="email" class="input" placeholder="E-MAIL"><br>
+            <input type="tel" name="phone" id="phone" class="input" placeholder="PHONE"><br>
+            <input type="text" name="pwd" id="pwd" class="input" value="" placeholder="PASSWORD"><br>
+            <input type="text" name="cpwd" id="cpwd" class="input" placeholder="CONFIRM PASSWORD" onchange="pwdCheck()"><br>
+            <input type="checkbox" name="agree" id="agree">I agree to the Terms of service and Privacy Policy. <br>
+            <span id="span"></span><br>
+            <input type="submit" class="sbt" value="SUBMIT">
+        </form>
+        <p>Already Registered. <a href="signIn.html">Login</a></p>
+    </div>
+</body>
+</html>

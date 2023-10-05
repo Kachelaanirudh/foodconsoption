@@ -1,0 +1,32 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+h2, p{
+    text-align: center;
+}
+#about{
+    padding: 50px 150px;
+}
+#aboutflex{
+    display: flex;
+    width: 100%;
+}
+#about h1{
+    color: rgb(77 211 241);
+    margin: 20px;
+    text-align: center;
+}
+
+#about_photo{
+    width: 50%;
+}
+#about_photo img{
+    width: 80%;
+    height: 80%;
+    padding: 30px 50px;
+}
+#about_txt{
+    width: 50%;
+}

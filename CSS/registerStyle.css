@@ -1,0 +1,48 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    /* border: 2px solid black; */
+    background-image:url(../image/background1.jpg);
+    
+}
+#container{
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.39);
+    /* opacity: 0.1; */
+    display: block;
+    margin:50px auto;
+    /* border: 2px solid black; */
+    width: 30%;
+    height: 70%;
+    padding: 20px;
+}
+p{
+    margin-bottom: 0;
+}
+h1{
+    color: rgb(110 31 182);
+}
+h1,form, p,a{
+    text-align: center;
+}
+
+.input{
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    background-color: rgba(21, 20, 20, 0);
+    border: 2px solid white;
+}
+
+.sbt{
+    color: whitesmoke;
+    background-color: rgb(110 31 182);
+    margin: 20px;
+    width: 30%;
+    padding: 10px 20px;
+    border: 0;
+    cursor: pointer;
+}
